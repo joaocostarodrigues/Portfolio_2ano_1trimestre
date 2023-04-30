@@ -1,0 +1,34 @@
+Create table WOOHP(
+  identificacao_pk VARCHAR (50) NOT NULL,
+  treinamento VARCHAR (50) NOT NULL,
+  missoes VARCHAR (30) NOT NULL,
+  PRIMARY KEY(identificacao_pk,)
+  )
+  CREATE TABLE espiao(
+    espiao_solo VARCHAR(50) NOT NULL,
+    espiao_junior VARCHAR(50) NOT NULL,
+    espiao_provisorio VARCHAR(50) NOT NULL,
+    super_espiao VARCHAR(50) NOT NULL,
+    genes_pk VARCHAR(50) NOT NULL,
+    PRIMARY key(genes_pk)
+    )
+  CREATE TABLE apetrechos(
+    comunicador_compowder_pk VARCHAR(30) NOT NULL,
+    brincos_serras VARCHAR(20) NOT NULL,
+    aneis_anti_gravidade VARCHAR(20) NOT NULL,
+    pulseiras_congelantes VARCHAR(20) NOT NULL,
+    escova_gancho VARCHAR(20) NOT NULL,
+    baton_laser VARCHAR(20) NOT NULL,
+    secodores_de_cabelo VARCHAR(20) NOT NULL,
+    PRIMARY KEY(comunicador_compowder_pk)
+    )
+    CREATE TABLE compowder(
+      trocar_roupa VARCHAR(20) NOT NULL,
+      leitor_de_musica VARCHAR(20) NOT NULL,
+      identificador_de_voz VARCHAR(20) NOT NULL,
+      camera VARCHAR(20) NOT NULL,
+      laser VARCHAR(20) NOT NULL,
+      comunicacao_pk VARCHAR(20) NOT NULL,
+      PRIMARY KEY(comunicacao_pk)
+      )
+      

@@ -1,0 +1,37 @@
+CREATE TABLE Figueirense_fc(
+  jogadores VARCHAR(1000)NOT NULL,
+  titulos VARCHAR(50)NOT NULL,
+  rank_cbf_pk VARCHAR(50)NOT NULL,
+  catarinense VARCHAR(20)NOT NULL,
+  idolos VARCHAR(500)NOT NULL,
+  PRIMARY KEY(rank_cbf_pk)
+  )
+  CREATE TABLE Orlando_Scarpelli(
+  bancos VARCHAR(5)NOT NULL,
+  gol VARCHAR(5)NOT NULL,
+  endereco_pk VARCHAR(20)NOT NULL,
+  keko VARCHAR(20),
+  loja_fk VARCHAR(50)NOT NULL,
+  historia VARCHAR(500)NOT NULL,
+  PRIMARY KEY(endereco_pk),
+  FOREIGN key(loja_fk)REFERENCES figueirastore(loja_fk)
+  )
+  CREATE TABLE Figueirastore(
+  camisasVARCHAR(50)NOT NULL,
+  caneca VARCHAR(50)NOT NULL,
+  cnpj_pk VARCHAR(50)NOT NULL,
+  casaco VARCHAR(50),
+  tenis VARCHAR(50)NOT NULL,
+  loja_fk VARCHAR(50)NOT NULL,
+  rg_torcida_pk VARCHAR(50) NOT NULL,
+  PRIMARY KEY(cnpj_pk),
+  FOREIGN key(rg_torcida_pk)REFERENCES torcida(rg_torcida_pk)
+  )
+  create table torcida(
+  familia VARCHAR (50) NOT NULL,
+  empolgacao VARCHAR (50) NOT NULL,
+  rg_pk VARCHAR (50) NOT NULL,
+  musicas VARCHAR (50) NOT NULL,
+  gavioes_alvinegros (50) NOT NULL,
+  PRIMARY KEY(rg_pk)
+  )

@@ -1,0 +1,19 @@
+programa 
+{
+ funcao inicio() 
+{ media() 
+}
+{
+ inteiro n, novoNumero, i=0
+ real soma = 0, resultado
+ escreva(Digite a quantidade de números para calcular a média!n)
+ leia(n) para (i=1; i= n; i++) 
+{ 
+    escreva(Digite a +i+ nota!n) 
+    leia(novoNumero) soma = soma + novoNumero 
+  } 
+       resultado = soman escreva( A média da nota será de +resultado) 
+  } 
+}
+ 
+não consegui fazer mais que isso, não consegui entender muito bem.
